@@ -29,19 +29,23 @@ Public Class TransactionForm
     Private Sub TransactionSearchBorrowerTextBox_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TransactionSearchBorrowerTextBox.TextChanged
         'SearchTransactions()
     End Sub
-    Private Sub LibraryExitButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles LibraryExitButton.Click
-        Me.Close()
-    End Sub
+
 
     Private Sub TransactionDataGridView_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles TransactionDataGridView.CellContentClick
-        sql = "SELECT * FROM BORROWERS WHERE BORROW_ID=" & CInt(TransactionDataGridView.CurrentCell.Value) & ""
+        sql = "SELECT BORROWERS.BORROW_ID, BORROWERS.BORROWER_NAME, BORROWERS.BOOK_TITLE, BOOKS.BOOK_AUTHOR, BOOKS.BOOK_CATEGORY, BOOKS.BOOK_ISB, STUDENTS.STUD_SECTION, STUDENTS.STUD_COUNT, BOOKS.BOOK_ID, BORROWERS.RECEIPT_NO FROM ((BORROWERS INNER JOIN STUDENTS ON BORROWERS.STUD_ID=STUDENTS.STUD_ID) INNER JOIN BOOKS ON BORROWERS.BOOK_ID=BOOKS.BOOK_ID) WHERE BORROW_ID=" & CInt(TransactionDataGridView.CurrentCell.Value) & ""
         cmd = New OleDbCommand(sql, con)
         Try
             dr = cmd.ExecuteReader()
             dr.Read()
-            Me.TborrowernameTextBox.Text = dr("STUD_COUNT")
+            Me.TborrowernameTextBox.Text = dr("BORROWER_NAME")
+            Me.TbooktitleTextBox.Text = dr("BOOK_TITLE")
+            Me.TbookauthorTextBox.Text = dr("BOOK_AUTHOR")
+            Me.TbookcategoryTextBox.Text = dr("BOOK_CATEGORY")
+            Me.TbookisbTextBox.Text = dr("BOOK_ISB")
+            Me.TsectionTextBox.Text = dr("STUD_SECTION")
+            Me.TstudentcountTextBox.Text = dr("STUD_COUNT")
+            Me.TreceiptnumberTextBox.Text = dr("RECEIPT_NO")
             Me.TbookidTextBox.Text = dr("BOOK_ID")
-            Me.TlibrarianTextBox.Text = dr("USER_ID")
             Me.tborrowidTextBox.Text = dr("BORROW_ID")
 
             dr.Close()

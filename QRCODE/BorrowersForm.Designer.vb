@@ -186,7 +186,7 @@ Partial Class BorrowersForm
         Me.BorrowerReceiptTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.BorrowerReceiptTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.BorrowerReceiptTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BorrowerReceiptTextBox.Location = New System.Drawing.Point(848, 495)
+        Me.BorrowerReceiptTextBox.Location = New System.Drawing.Point(757, 495)
         Me.BorrowerReceiptTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerReceiptTextBox.Name = "BorrowerReceiptTextBox"
         Me.BorrowerReceiptTextBox.Size = New System.Drawing.Size(262, 39)
@@ -197,7 +197,7 @@ Partial Class BorrowersForm
         Me.BorrowerReturnDateTimePicker.CustomFormat = "yyyy-MM-dd"
         Me.BorrowerReturnDateTimePicker.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BorrowerReturnDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.BorrowerReturnDateTimePicker.Location = New System.Drawing.Point(848, 298)
+        Me.BorrowerReturnDateTimePicker.Location = New System.Drawing.Point(757, 298)
         Me.BorrowerReturnDateTimePicker.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerReturnDateTimePicker.Name = "BorrowerReturnDateTimePicker"
         Me.BorrowerReturnDateTimePicker.Size = New System.Drawing.Size(253, 25)
@@ -239,7 +239,7 @@ Partial Class BorrowersForm
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label4.Location = New System.Drawing.Point(842, 457)
+        Me.Label4.Location = New System.Drawing.Point(751, 457)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(162, 27)
         Me.Label4.TabIndex = 79
@@ -250,7 +250,7 @@ Partial Class BorrowersForm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label5.Location = New System.Drawing.Point(842, 352)
+        Me.Label5.Location = New System.Drawing.Point(751, 352)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(133, 27)
         Me.Label5.TabIndex = 78
@@ -261,7 +261,7 @@ Partial Class BorrowersForm
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label6.Location = New System.Drawing.Point(842, 252)
+        Me.Label6.Location = New System.Drawing.Point(751, 252)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(122, 27)
         Me.Label6.TabIndex = 77
@@ -272,7 +272,7 @@ Partial Class BorrowersForm
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label7.Location = New System.Drawing.Point(842, 148)
+        Me.Label7.Location = New System.Drawing.Point(751, 148)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(97, 27)
         Me.Label7.TabIndex = 76
@@ -490,7 +490,7 @@ Partial Class BorrowersForm
         Me.BorrowCategoryTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.BorrowCategoryTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.BorrowCategoryTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BorrowCategoryTextBox.Location = New System.Drawing.Point(847, 186)
+        Me.BorrowCategoryTextBox.Location = New System.Drawing.Point(756, 186)
         Me.BorrowCategoryTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowCategoryTextBox.Name = "BorrowCategoryTextBox"
         Me.BorrowCategoryTextBox.Size = New System.Drawing.Size(262, 39)
@@ -501,7 +501,7 @@ Partial Class BorrowersForm
         Me.BorrowerDateTimePicker.CustomFormat = "yyyy-MM-dd"
         Me.BorrowerDateTimePicker.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!)
         Me.BorrowerDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.BorrowerDateTimePicker.Location = New System.Drawing.Point(847, 399)
+        Me.BorrowerDateTimePicker.Location = New System.Drawing.Point(756, 399)
         Me.BorrowerDateTimePicker.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerDateTimePicker.Name = "BorrowerDateTimePicker"
         Me.BorrowerDateTimePicker.Size = New System.Drawing.Size(254, 25)

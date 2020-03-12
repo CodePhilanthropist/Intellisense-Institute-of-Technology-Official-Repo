@@ -24,13 +24,11 @@ Partial Class TransactionForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TransactionForm))
         Me.LibraryBookLabel = New System.Windows.Forms.Label()
-        Me.LibraryExitButton = New System.Windows.Forms.Button()
         Me.PrintDetailsButton = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TransactionSearchBorrowerTextBox = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -47,7 +45,6 @@ Partial Class TransactionForm
         Me.TransactionDataGridView = New System.Windows.Forms.DataGridView()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.asd = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.Labelsa = New System.Windows.Forms.Label()
         Me.TborrowernameTextBox = New System.Windows.Forms.TextBox()
@@ -55,13 +52,13 @@ Partial Class TransactionForm
         Me.TbookauthorTextBox = New System.Windows.Forms.TextBox()
         Me.TbookcategoryTextBox = New System.Windows.Forms.TextBox()
         Me.TbookisbTextBox = New System.Windows.Forms.TextBox()
-        Me.TlibrarianTextBox = New System.Windows.Forms.TextBox()
         Me.tborrowidTextBox = New System.Windows.Forms.TextBox()
         Me.TsectionTextBox = New System.Windows.Forms.TextBox()
         Me.TstudentcountTextBox = New System.Windows.Forms.TextBox()
         Me.TbookidTextBox = New System.Windows.Forms.TextBox()
-        Me.TtransactionnumberTextBox = New System.Windows.Forms.TextBox()
         Me.TreceiptnumberTextBox = New System.Windows.Forms.TextBox()
+        Me.BorrowerDetailsButton = New System.Windows.Forms.Button()
+        Me.BooktitledetailsButton = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TransactionDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -78,22 +75,6 @@ Partial Class TransactionForm
         Me.LibraryBookLabel.TabIndex = 71
         Me.LibraryBookLabel.Text = "borrower name"
         '
-        'LibraryExitButton
-        '
-        Me.LibraryExitButton.AutoEllipsis = True
-        Me.LibraryExitButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.LibraryExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.LibraryExitButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.LibraryExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.LibraryExitButton.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LibraryExitButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.LibraryExitButton.Location = New System.Drawing.Point(1197, 327)
-        Me.LibraryExitButton.Name = "LibraryExitButton"
-        Me.LibraryExitButton.Size = New System.Drawing.Size(142, 60)
-        Me.LibraryExitButton.TabIndex = 76
-        Me.LibraryExitButton.Text = "Exit"
-        Me.LibraryExitButton.UseVisualStyleBackColor = False
-        '
         'PrintDetailsButton
         '
         Me.PrintDetailsButton.AutoEllipsis = True
@@ -103,9 +84,9 @@ Partial Class TransactionForm
         Me.PrintDetailsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.PrintDetailsButton.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PrintDetailsButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.PrintDetailsButton.Location = New System.Drawing.Point(1197, 249)
+        Me.PrintDetailsButton.Location = New System.Drawing.Point(1042, 324)
         Me.PrintDetailsButton.Name = "PrintDetailsButton"
-        Me.PrintDetailsButton.Size = New System.Drawing.Size(142, 60)
+        Me.PrintDetailsButton.Size = New System.Drawing.Size(221, 60)
         Me.PrintDetailsButton.TabIndex = 75
         Me.PrintDetailsButton.Text = "Print Details"
         Me.PrintDetailsButton.UseVisualStyleBackColor = False
@@ -148,22 +129,11 @@ Partial Class TransactionForm
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label4.Location = New System.Drawing.Point(641, 144)
+        Me.Label4.Location = New System.Drawing.Point(715, 144)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(180, 27)
         Me.Label4.TabIndex = 83
         Me.Label4.Text = "book isb number"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label5.Location = New System.Drawing.Point(641, 229)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(94, 27)
-        Me.Label5.TabIndex = 85
-        Me.Label5.Text = "librarian"
         '
         'Label8
         '
@@ -304,7 +274,7 @@ Partial Class TransactionForm
         Me.shitIDLabel.AutoSize = True
         Me.shitIDLabel.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.shitIDLabel.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.shitIDLabel.Location = New System.Drawing.Point(641, 305)
+        Me.shitIDLabel.Location = New System.Drawing.Point(715, 229)
         Me.shitIDLabel.Name = "shitIDLabel"
         Me.shitIDLabel.Size = New System.Drawing.Size(128, 27)
         Me.shitIDLabel.TabIndex = 95
@@ -315,7 +285,7 @@ Partial Class TransactionForm
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label13.Location = New System.Drawing.Point(641, 378)
+        Me.Label13.Location = New System.Drawing.Point(715, 302)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(82, 27)
         Me.Label13.TabIndex = 97
@@ -325,9 +295,9 @@ Partial Class TransactionForm
         '
         Me.TransactionDataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight
         Me.TransactionDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.TransactionDataGridView.Location = New System.Drawing.Point(391, 489)
+        Me.TransactionDataGridView.Location = New System.Drawing.Point(490, 496)
         Me.TransactionDataGridView.Name = "TransactionDataGridView"
-        Me.TransactionDataGridView.Size = New System.Drawing.Size(891, 205)
+        Me.TransactionDataGridView.Size = New System.Drawing.Size(707, 205)
         Me.TransactionDataGridView.TabIndex = 106
         '
         'Label15
@@ -335,7 +305,7 @@ Partial Class TransactionForm
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label15.Location = New System.Drawing.Point(919, 229)
+        Me.Label15.Location = New System.Drawing.Point(1028, 144)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(88, 27)
         Me.Label15.TabIndex = 108
@@ -346,22 +316,11 @@ Partial Class TransactionForm
         Me.asd.AutoSize = True
         Me.asd.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.asd.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.asd.Location = New System.Drawing.Point(919, 144)
+        Me.asd.Location = New System.Drawing.Point(715, 378)
         Me.asd.Name = "asd"
         Me.asd.Size = New System.Drawing.Size(150, 27)
         Me.asd.TabIndex = 107
         Me.asd.Text = "student count"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label16.Location = New System.Drawing.Point(919, 304)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(205, 27)
-        Me.Label16.TabIndex = 111
-        Me.Label16.Text = "transaction number"
         '
         'SaveFileDialog1
         '
@@ -373,7 +332,7 @@ Partial Class TransactionForm
         Me.Labelsa.AutoSize = True
         Me.Labelsa.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Labelsa.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Labelsa.Location = New System.Drawing.Point(922, 378)
+        Me.Labelsa.Location = New System.Drawing.Point(1028, 229)
         Me.Labelsa.Name = "Labelsa"
         Me.Labelsa.Size = New System.Drawing.Size(162, 27)
         Me.Labelsa.TabIndex = 113
@@ -385,7 +344,7 @@ Partial Class TransactionForm
         Me.TborrowernameTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TborrowernameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TborrowernameTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TborrowernameTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TborrowernameTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
         Me.TborrowernameTextBox.Location = New System.Drawing.Point(373, 175)
         Me.TborrowernameTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TborrowernameTextBox.Name = "TborrowernameTextBox"
@@ -398,7 +357,7 @@ Partial Class TransactionForm
         Me.TbooktitleTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TbooktitleTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TbooktitleTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TbooktitleTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TbooktitleTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
         Me.TbooktitleTextBox.Location = New System.Drawing.Point(373, 260)
         Me.TbooktitleTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TbooktitleTextBox.Name = "TbooktitleTextBox"
@@ -411,7 +370,7 @@ Partial Class TransactionForm
         Me.TbookauthorTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TbookauthorTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TbookauthorTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TbookauthorTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TbookauthorTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
         Me.TbookauthorTextBox.Location = New System.Drawing.Point(373, 335)
         Me.TbookauthorTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TbookauthorTextBox.Name = "TbookauthorTextBox"
@@ -424,7 +383,7 @@ Partial Class TransactionForm
         Me.TbookcategoryTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TbookcategoryTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TbookcategoryTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TbookcategoryTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TbookcategoryTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
         Me.TbookcategoryTextBox.Location = New System.Drawing.Point(373, 409)
         Me.TbookcategoryTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TbookcategoryTextBox.Name = "TbookcategoryTextBox"
@@ -437,25 +396,12 @@ Partial Class TransactionForm
         Me.TbookisbTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TbookisbTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TbookisbTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TbookisbTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TbookisbTextBox.Location = New System.Drawing.Point(646, 175)
+        Me.TbookisbTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.TbookisbTextBox.Location = New System.Drawing.Point(720, 175)
         Me.TbookisbTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TbookisbTextBox.Name = "TbookisbTextBox"
         Me.TbookisbTextBox.Size = New System.Drawing.Size(236, 39)
         Me.TbookisbTextBox.TabIndex = 118
-        '
-        'TlibrarianTextBox
-        '
-        Me.TlibrarianTextBox.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor
-        Me.TlibrarianTextBox.BackColor = System.Drawing.SystemColors.Window
-        Me.TlibrarianTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TlibrarianTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TlibrarianTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TlibrarianTextBox.Location = New System.Drawing.Point(646, 260)
-        Me.TlibrarianTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TlibrarianTextBox.Name = "TlibrarianTextBox"
-        Me.TlibrarianTextBox.Size = New System.Drawing.Size(236, 39)
-        Me.TlibrarianTextBox.TabIndex = 119
         '
         'tborrowidTextBox
         '
@@ -463,8 +409,8 @@ Partial Class TransactionForm
         Me.tborrowidTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.tborrowidTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tborrowidTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.tborrowidTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tborrowidTextBox.Location = New System.Drawing.Point(646, 335)
+        Me.tborrowidTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.tborrowidTextBox.Location = New System.Drawing.Point(720, 259)
         Me.tborrowidTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.tborrowidTextBox.Name = "tborrowidTextBox"
         Me.tborrowidTextBox.Size = New System.Drawing.Size(236, 39)
@@ -476,8 +422,8 @@ Partial Class TransactionForm
         Me.TsectionTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TsectionTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TsectionTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TsectionTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TsectionTextBox.Location = New System.Drawing.Point(646, 409)
+        Me.TsectionTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.TsectionTextBox.Location = New System.Drawing.Point(720, 333)
         Me.TsectionTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TsectionTextBox.Name = "TsectionTextBox"
         Me.TsectionTextBox.Size = New System.Drawing.Size(236, 39)
@@ -489,8 +435,8 @@ Partial Class TransactionForm
         Me.TstudentcountTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TstudentcountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TstudentcountTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TstudentcountTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TstudentcountTextBox.Location = New System.Drawing.Point(913, 175)
+        Me.TstudentcountTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.TstudentcountTextBox.Location = New System.Drawing.Point(720, 409)
         Me.TstudentcountTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TstudentcountTextBox.Name = "TstudentcountTextBox"
         Me.TstudentcountTextBox.Size = New System.Drawing.Size(236, 39)
@@ -502,25 +448,12 @@ Partial Class TransactionForm
         Me.TbookidTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TbookidTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TbookidTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TbookidTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TbookidTextBox.Location = New System.Drawing.Point(913, 260)
+        Me.TbookidTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.TbookidTextBox.Location = New System.Drawing.Point(1033, 175)
         Me.TbookidTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TbookidTextBox.Name = "TbookidTextBox"
         Me.TbookidTextBox.Size = New System.Drawing.Size(236, 39)
         Me.TbookidTextBox.TabIndex = 123
-        '
-        'TtransactionnumberTextBox
-        '
-        Me.TtransactionnumberTextBox.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor
-        Me.TtransactionnumberTextBox.BackColor = System.Drawing.SystemColors.Window
-        Me.TtransactionnumberTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TtransactionnumberTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TtransactionnumberTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TtransactionnumberTextBox.Location = New System.Drawing.Point(913, 335)
-        Me.TtransactionnumberTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TtransactionnumberTextBox.Name = "TtransactionnumberTextBox"
-        Me.TtransactionnumberTextBox.Size = New System.Drawing.Size(236, 39)
-        Me.TtransactionnumberTextBox.TabIndex = 124
         '
         'TreceiptnumberTextBox
         '
@@ -528,12 +461,38 @@ Partial Class TransactionForm
         Me.TreceiptnumberTextBox.BackColor = System.Drawing.SystemColors.Window
         Me.TreceiptnumberTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TreceiptnumberTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TreceiptnumberTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TreceiptnumberTextBox.Location = New System.Drawing.Point(913, 409)
+        Me.TreceiptnumberTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold)
+        Me.TreceiptnumberTextBox.Location = New System.Drawing.Point(1033, 261)
         Me.TreceiptnumberTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TreceiptnumberTextBox.Name = "TreceiptnumberTextBox"
         Me.TreceiptnumberTextBox.Size = New System.Drawing.Size(236, 39)
         Me.TreceiptnumberTextBox.TabIndex = 125
+        '
+        'BorrowerDetailsButton
+        '
+        Me.BorrowerDetailsButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BorrowerDetailsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BorrowerDetailsButton.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BorrowerDetailsButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BorrowerDetailsButton.Location = New System.Drawing.Point(616, 176)
+        Me.BorrowerDetailsButton.Name = "BorrowerDetailsButton"
+        Me.BorrowerDetailsButton.Size = New System.Drawing.Size(71, 35)
+        Me.BorrowerDetailsButton.TabIndex = 126
+        Me.BorrowerDetailsButton.Text = "Details"
+        Me.BorrowerDetailsButton.UseVisualStyleBackColor = False
+        '
+        'BooktitledetailsButton
+        '
+        Me.BooktitledetailsButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BooktitledetailsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BooktitledetailsButton.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BooktitledetailsButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BooktitledetailsButton.Location = New System.Drawing.Point(616, 263)
+        Me.BooktitledetailsButton.Name = "BooktitledetailsButton"
+        Me.BooktitledetailsButton.Size = New System.Drawing.Size(71, 35)
+        Me.BooktitledetailsButton.TabIndex = 127
+        Me.BooktitledetailsButton.Text = "Details"
+        Me.BooktitledetailsButton.UseVisualStyleBackColor = False
         '
         'TransactionForm
         '
@@ -541,20 +500,19 @@ Partial Class TransactionForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1370, 749)
+        Me.Controls.Add(Me.BooktitledetailsButton)
+        Me.Controls.Add(Me.BorrowerDetailsButton)
         Me.Controls.Add(Me.TreceiptnumberTextBox)
-        Me.Controls.Add(Me.TtransactionnumberTextBox)
         Me.Controls.Add(Me.TbookidTextBox)
         Me.Controls.Add(Me.TstudentcountTextBox)
         Me.Controls.Add(Me.TsectionTextBox)
         Me.Controls.Add(Me.tborrowidTextBox)
-        Me.Controls.Add(Me.TlibrarianTextBox)
         Me.Controls.Add(Me.TbookisbTextBox)
         Me.Controls.Add(Me.TbookcategoryTextBox)
         Me.Controls.Add(Me.TbookauthorTextBox)
         Me.Controls.Add(Me.TbooktitleTextBox)
         Me.Controls.Add(Me.TborrowernameTextBox)
         Me.Controls.Add(Me.Labelsa)
-        Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.asd)
         Me.Controls.Add(Me.TransactionDataGridView)
@@ -564,12 +522,10 @@ Partial Class TransactionForm
         Me.Controls.Add(Me.TransactionSearchBorrowerTextBox)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.SearchTitleButton)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.LibraryExitButton)
         Me.Controls.Add(Me.PrintDetailsButton)
         Me.Controls.Add(Me.LibraryBookLabel)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -587,13 +543,11 @@ Partial Class TransactionForm
 
     End Sub
     Friend WithEvents LibraryBookLabel As System.Windows.Forms.Label
-    Friend WithEvents LibraryExitButton As System.Windows.Forms.Button
     Friend WithEvents PrintDetailsButton As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents TransactionSearchBorrowerTextBox As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
@@ -609,7 +563,6 @@ Partial Class TransactionForm
     Friend WithEvents TransactionDataGridView As System.Windows.Forms.DataGridView
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents asd As System.Windows.Forms.Label
-    Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents SaveFileDialog1 As System.Windows.Forms.SaveFileDialog
     Friend WithEvents Labelsa As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
@@ -618,11 +571,11 @@ Partial Class TransactionForm
     Friend WithEvents TbookauthorTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TbookcategoryTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TbookisbTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents TlibrarianTextBox As System.Windows.Forms.TextBox
     Friend WithEvents tborrowidTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TsectionTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TstudentcountTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TbookidTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents TtransactionnumberTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TreceiptnumberTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents BorrowerDetailsButton As System.Windows.Forms.Button
+    Friend WithEvents BooktitledetailsButton As System.Windows.Forms.Button
 End Class
