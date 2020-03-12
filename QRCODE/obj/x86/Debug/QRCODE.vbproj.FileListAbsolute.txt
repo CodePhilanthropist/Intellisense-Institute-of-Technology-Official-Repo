@@ -1,0 +1,58 @@
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\bin\Debug\QRCODE.exe
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\bin\Debug\QRCODE.pdb
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\bin\Debug\QRCODE.xml
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\obj\x86\Debug\QRCODE.vbprojResolveAssemblyReference.cache
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\obj\x86\Debug\QRCODE.Form1.resources
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\obj\x86\Debug\QRCODE.Resources.resources
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\obj\x86\Debug\QRCODE.vbproj.GenerateResource.Cache
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\obj\x86\Debug\QRCODE.exe
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\obj\x86\Debug\QRCODE.xml
+C:\Users\REX\AppData\Local\Temporary Projects\QRCODE\obj\x86\Debug\QRCODE.pdb
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Debug\QRCODE.exe
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Debug\QRCODE.xml
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Debug\QRCODE.pdb
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Debug\QRCODE.exe
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Debug\QRCODE.pdb
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Debug\QRCODE.xml
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Debug\QRCODE.vbprojResolveAssemblyReference.cache
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Debug\QRCODE.Form1.resources
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Debug\QRCODE.Resources.resources
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Debug\QRCODE.vbproj.GenerateResource.Cache
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\bin\Debug\QRCODE.exe
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\bin\Debug\QRCODE.pdb
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\bin\Debug\QRCODE.xml
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.vbprojResolveAssemblyReference.cache
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.Resources.resources
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.vbproj.GenerateResource.Cache
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.exe
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.xml
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.pdb
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.LoginForm.resources
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.LibraryForm.resources
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.RegisterBookTransaction.resources
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.BorrowersForm.resources
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Debug\QRCODE.TransactionForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.vbprojResolveAssemblyReference.cache
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.LibraryForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.RegisterBookTransaction.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.BorrowersForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.LoginForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.Resources.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.TransactionForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.vbproj.GenerateResource.Cache
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.RegisterStudentsForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.SearchBookForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.SearchBorrowerForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\bin\Debug\Intellisense Library System.exe.manifest
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\bin\Debug\Intellisense Library System.application
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\bin\Debug\Intellisense Library System.exe
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\bin\Debug\Intellisense Library System.pdb
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\bin\Debug\Intellisense Library System.xml
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\QRCODE.SplashScreenForm.resources
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.exe.manifest
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.application
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.exe
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.xml
+C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.pdb

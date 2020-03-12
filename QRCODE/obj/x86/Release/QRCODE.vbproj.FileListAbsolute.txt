@@ -1,0 +1,21 @@
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Release\QRCODE.exe
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Release\QRCODE.pdb
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Release\QRCODE.xml
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\bin\Release\MessagingToolkit.QRCode.dll
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Release\QRCODE.Form1.resources
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Release\QRCODE.Resources.resources
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Release\QRCODE.vbproj.GenerateResource.Cache
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Release\QRCODE.exe
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Release\QRCODE.xml
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Release\QRCODE.pdb
+C:\Users\REX\Desktop\QRCode\QRCODE\QRCODE\obj\x86\Release\QRCODE.vbprojResolveAssemblyReference.cache
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\bin\Release\QRCODE.exe
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\bin\Release\QRCODE.pdb
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\bin\Release\QRCODE.xml
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Release\QRCODE.vbprojResolveAssemblyReference.cache
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Release\QRCODE.Resources.resources
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Release\QRCODE.vbproj.GenerateResource.Cache
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Release\QRCODE.exe
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Release\QRCODE.xml
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Release\QRCODE.pdb
+C:\Users\Rian\Desktop\Software Project\QRCODE\QRCODE\obj\x86\Release\QRCODE.GenerateCode.resources
