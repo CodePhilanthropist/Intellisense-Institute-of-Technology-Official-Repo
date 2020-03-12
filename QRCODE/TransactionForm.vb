@@ -10,7 +10,7 @@ Public Class TransactionForm
     End Sub
 
     Private Sub populateTransaction()
-        sql = "SELECT * FROM TRANSACTION ORDER BY TRANSACTION_NO ASC"
+        sql = "SELECT BORROWERS.BORROW_ID, BORROWERS.BOOK_TITLE, BORROWERS.BORROWER_NAME, STUDENTS.STUD_ID, STUDENTS.STUD_SECTION, BOOKS.BOOK_AUTHOR FROM ((BORROWERS INNER JOIN STUDENTS ON BORROWERS.STUD_ID=STUDENTS.STUD_ID) INNER JOIN BOOKS ON BORROWERS.BOOK_ID=BOOKS.BOOK_ID) ORDER BY BORROWERS.BORROW_ID DESC"
         cmd = New OleDbCommand(sql, con)
         Try
             cmd.ExecuteNonQuery()
@@ -34,7 +34,7 @@ Public Class TransactionForm
     End Sub
 
     Private Sub TransactionDataGridView_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles TransactionDataGridView.CellContentClick
-        sql = "SELECT * FROM TRANSACTION WHERE TRANSACTION_NO=" & CInt(TransactionDataGridView.CurrentCell.Value) & ""
+        sql = "SELECT * FROM BORROWERS WHERE BORROW_ID=" & CInt(TransactionDataGridView.CurrentCell.Value) & ""
         cmd = New OleDbCommand(sql, con)
         Try
             dr = cmd.ExecuteReader()

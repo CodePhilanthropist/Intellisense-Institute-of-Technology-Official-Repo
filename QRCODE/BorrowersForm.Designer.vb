@@ -58,6 +58,10 @@ Partial Class BorrowersForm
         Me.BorrowerDataGridView = New System.Windows.Forms.DataGridView()
         Me.BorrowCategoryTextBox = New System.Windows.Forms.TextBox()
         Me.BorrowerDateTimePicker = New System.Windows.Forms.DateTimePicker()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.BorrowerBookIDTextBox = New System.Windows.Forms.TextBox()
+        Me.studcountTextBox = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -182,7 +186,7 @@ Partial Class BorrowersForm
         Me.BorrowerReceiptTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.BorrowerReceiptTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.BorrowerReceiptTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BorrowerReceiptTextBox.Location = New System.Drawing.Point(758, 495)
+        Me.BorrowerReceiptTextBox.Location = New System.Drawing.Point(848, 495)
         Me.BorrowerReceiptTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerReceiptTextBox.Name = "BorrowerReceiptTextBox"
         Me.BorrowerReceiptTextBox.Size = New System.Drawing.Size(262, 39)
@@ -193,7 +197,7 @@ Partial Class BorrowersForm
         Me.BorrowerReturnDateTimePicker.CustomFormat = "yyyy-MM-dd"
         Me.BorrowerReturnDateTimePicker.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BorrowerReturnDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.BorrowerReturnDateTimePicker.Location = New System.Drawing.Point(758, 298)
+        Me.BorrowerReturnDateTimePicker.Location = New System.Drawing.Point(848, 298)
         Me.BorrowerReturnDateTimePicker.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerReturnDateTimePicker.Name = "BorrowerReturnDateTimePicker"
         Me.BorrowerReturnDateTimePicker.Size = New System.Drawing.Size(253, 25)
@@ -235,7 +239,7 @@ Partial Class BorrowersForm
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label4.Location = New System.Drawing.Point(752, 457)
+        Me.Label4.Location = New System.Drawing.Point(842, 457)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(162, 27)
         Me.Label4.TabIndex = 79
@@ -246,7 +250,7 @@ Partial Class BorrowersForm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label5.Location = New System.Drawing.Point(752, 352)
+        Me.Label5.Location = New System.Drawing.Point(842, 352)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(133, 27)
         Me.Label5.TabIndex = 78
@@ -257,7 +261,7 @@ Partial Class BorrowersForm
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label6.Location = New System.Drawing.Point(752, 252)
+        Me.Label6.Location = New System.Drawing.Point(842, 252)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(122, 27)
         Me.Label6.TabIndex = 77
@@ -268,7 +272,7 @@ Partial Class BorrowersForm
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label7.Location = New System.Drawing.Point(752, 148)
+        Me.Label7.Location = New System.Drawing.Point(842, 148)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(97, 27)
         Me.Label7.TabIndex = 76
@@ -356,7 +360,7 @@ Partial Class BorrowersForm
         Me.BorrowerBookNumberTextBox.Location = New System.Drawing.Point(345, 186)
         Me.BorrowerBookNumberTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerBookNumberTextBox.Name = "BorrowerBookNumberTextBox"
-        Me.BorrowerBookNumberTextBox.Size = New System.Drawing.Size(262, 39)
+        Me.BorrowerBookNumberTextBox.Size = New System.Drawing.Size(79, 39)
         Me.BorrowerBookNumberTextBox.TabIndex = 11
         '
         'Label13
@@ -364,11 +368,11 @@ Partial Class BorrowersForm
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label13.Location = New System.Drawing.Point(340, 148)
+        Me.Label13.Location = New System.Drawing.Point(325, 155)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(167, 27)
+        Me.Label13.Size = New System.Drawing.Size(116, 27)
         Me.Label13.TabIndex = 68
-        Me.Label13.Text = "borrow number"
+        Me.Label13.Text = "borrow no"
         '
         'Panel1
         '
@@ -378,10 +382,10 @@ Partial Class BorrowersForm
         Me.Panel1.Controls.Add(Me.BorrowerUpdateButton)
         Me.Panel1.Controls.Add(Me.BorrowerSaveButton)
         Me.Panel1.Controls.Add(Me.BorrowerAddButton)
-        Me.Panel1.Location = New System.Drawing.Point(1102, -1)
+        Me.Panel1.Location = New System.Drawing.Point(1130, -1)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(269, 762)
+        Me.Panel1.Size = New System.Drawing.Size(241, 762)
         Me.Panel1.TabIndex = 91
         '
         'BorrowRegisterSTudentsButton
@@ -393,10 +397,10 @@ Partial Class BorrowersForm
         Me.BorrowRegisterSTudentsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BorrowRegisterSTudentsButton.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BorrowRegisterSTudentsButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BorrowRegisterSTudentsButton.Location = New System.Drawing.Point(36, 456)
+        Me.BorrowRegisterSTudentsButton.Location = New System.Drawing.Point(41, 451)
         Me.BorrowRegisterSTudentsButton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowRegisterSTudentsButton.Name = "BorrowRegisterSTudentsButton"
-        Me.BorrowRegisterSTudentsButton.Size = New System.Drawing.Size(205, 71)
+        Me.BorrowRegisterSTudentsButton.Size = New System.Drawing.Size(161, 71)
         Me.BorrowRegisterSTudentsButton.TabIndex = 26
         Me.BorrowRegisterSTudentsButton.Text = "Register Student"
         Me.BorrowRegisterSTudentsButton.UseVisualStyleBackColor = False
@@ -410,10 +414,10 @@ Partial Class BorrowersForm
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button3.Location = New System.Drawing.Point(36, 374)
+        Me.Button3.Location = New System.Drawing.Point(41, 369)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(205, 71)
+        Me.Button3.Size = New System.Drawing.Size(161, 71)
         Me.Button3.TabIndex = 24
         Me.Button3.Text = "Receipt"
         Me.Button3.UseVisualStyleBackColor = False
@@ -427,10 +431,10 @@ Partial Class BorrowersForm
         Me.BorrowerUpdateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BorrowerUpdateButton.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BorrowerUpdateButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BorrowerUpdateButton.Location = New System.Drawing.Point(36, 293)
+        Me.BorrowerUpdateButton.Location = New System.Drawing.Point(41, 288)
         Me.BorrowerUpdateButton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerUpdateButton.Name = "BorrowerUpdateButton"
-        Me.BorrowerUpdateButton.Size = New System.Drawing.Size(205, 71)
+        Me.BorrowerUpdateButton.Size = New System.Drawing.Size(161, 71)
         Me.BorrowerUpdateButton.TabIndex = 23
         Me.BorrowerUpdateButton.Text = "Update"
         Me.BorrowerUpdateButton.UseVisualStyleBackColor = False
@@ -444,10 +448,10 @@ Partial Class BorrowersForm
         Me.BorrowerSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BorrowerSaveButton.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BorrowerSaveButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BorrowerSaveButton.Location = New System.Drawing.Point(36, 213)
+        Me.BorrowerSaveButton.Location = New System.Drawing.Point(41, 208)
         Me.BorrowerSaveButton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerSaveButton.Name = "BorrowerSaveButton"
-        Me.BorrowerSaveButton.Size = New System.Drawing.Size(205, 71)
+        Me.BorrowerSaveButton.Size = New System.Drawing.Size(161, 71)
         Me.BorrowerSaveButton.TabIndex = 22
         Me.BorrowerSaveButton.Text = "Save"
         Me.BorrowerSaveButton.UseVisualStyleBackColor = False
@@ -461,10 +465,10 @@ Partial Class BorrowersForm
         Me.BorrowerAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BorrowerAddButton.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BorrowerAddButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BorrowerAddButton.Location = New System.Drawing.Point(36, 133)
+        Me.BorrowerAddButton.Location = New System.Drawing.Point(41, 128)
         Me.BorrowerAddButton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerAddButton.Name = "BorrowerAddButton"
-        Me.BorrowerAddButton.Size = New System.Drawing.Size(205, 71)
+        Me.BorrowerAddButton.Size = New System.Drawing.Size(161, 71)
         Me.BorrowerAddButton.TabIndex = 21
         Me.BorrowerAddButton.Text = "Add"
         Me.BorrowerAddButton.UseVisualStyleBackColor = False
@@ -473,7 +477,7 @@ Partial Class BorrowersForm
         '
         Me.BorrowerDataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight
         Me.BorrowerDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.BorrowerDataGridView.Location = New System.Drawing.Point(252, 548)
+        Me.BorrowerDataGridView.Location = New System.Drawing.Point(245, 572)
         Me.BorrowerDataGridView.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerDataGridView.Name = "BorrowerDataGridView"
         Me.BorrowerDataGridView.Size = New System.Drawing.Size(879, 160)
@@ -486,7 +490,7 @@ Partial Class BorrowersForm
         Me.BorrowCategoryTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.BorrowCategoryTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.BorrowCategoryTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BorrowCategoryTextBox.Location = New System.Drawing.Point(757, 186)
+        Me.BorrowCategoryTextBox.Location = New System.Drawing.Point(847, 186)
         Me.BorrowCategoryTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowCategoryTextBox.Name = "BorrowCategoryTextBox"
         Me.BorrowCategoryTextBox.Size = New System.Drawing.Size(262, 39)
@@ -497,18 +501,70 @@ Partial Class BorrowersForm
         Me.BorrowerDateTimePicker.CustomFormat = "yyyy-MM-dd"
         Me.BorrowerDateTimePicker.Font = New System.Drawing.Font("Microsoft YaHei", 9.75!)
         Me.BorrowerDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.BorrowerDateTimePicker.Location = New System.Drawing.Point(757, 399)
+        Me.BorrowerDateTimePicker.Location = New System.Drawing.Point(847, 399)
         Me.BorrowerDateTimePicker.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BorrowerDateTimePicker.Name = "BorrowerDateTimePicker"
         Me.BorrowerDateTimePicker.Size = New System.Drawing.Size(254, 25)
         Me.BorrowerDateTimePicker.TabIndex = 94
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label8.Location = New System.Drawing.Point(447, 155)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(88, 27)
+        Me.Label8.TabIndex = 95
+        Me.Label8.Text = "book id"
+        '
+        'BorrowerBookIDTextBox
+        '
+        Me.BorrowerBookIDTextBox.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor
+        Me.BorrowerBookIDTextBox.BackColor = System.Drawing.SystemColors.Window
+        Me.BorrowerBookIDTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.BorrowerBookIDTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.BorrowerBookIDTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BorrowerBookIDTextBox.Location = New System.Drawing.Point(453, 186)
+        Me.BorrowerBookIDTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.BorrowerBookIDTextBox.Name = "BorrowerBookIDTextBox"
+        Me.BorrowerBookIDTextBox.Size = New System.Drawing.Size(79, 39)
+        Me.BorrowerBookIDTextBox.TabIndex = 96
+        '
+        'studcountTextBox
+        '
+        Me.studcountTextBox.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor
+        Me.studcountTextBox.BackColor = System.Drawing.SystemColors.Window
+        Me.studcountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.studcountTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.studcountTextBox.Font = New System.Drawing.Font("Microsoft YaHei", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.studcountTextBox.Location = New System.Drawing.Point(563, 186)
+        Me.studcountTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.studcountTextBox.Name = "studcountTextBox"
+        Me.studcountTextBox.Size = New System.Drawing.Size(79, 39)
+        Me.studcountTextBox.TabIndex = 97
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Tai Le", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label12.Location = New System.Drawing.Point(541, 155)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(118, 27)
+        Me.Label12.TabIndex = 98
+        Me.Label12.Text = "stud count"
         '
         'BorrowersForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ClientSize = New System.Drawing.Size(1370, 749)
+        Me.ClientSize = New System.Drawing.Size(1370, 759)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.studcountTextBox)
+        Me.Controls.Add(Me.BorrowerBookIDTextBox)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.BorrowerDateTimePicker)
         Me.Controls.Add(Me.BorrowCategoryTextBox)
         Me.Controls.Add(Me.BorrowerDataGridView)
@@ -586,5 +642,9 @@ Partial Class BorrowersForm
     Friend WithEvents BorrowerDataGridView As System.Windows.Forms.DataGridView
     Friend WithEvents BorrowCategoryTextBox As System.Windows.Forms.TextBox
     Friend WithEvents BorrowerDateTimePicker As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents BorrowerBookIDTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents studcountTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 
 End Class

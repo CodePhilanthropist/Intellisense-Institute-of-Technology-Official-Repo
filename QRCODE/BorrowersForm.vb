@@ -9,7 +9,7 @@ Public Class BorrowersForm
     End Sub
    
     Private Sub populateBorrowers()
-        sql = "SELECT* FROM BORROWERS ORDER BY BORROW_ID DESC"
+        sql = "SELECT BORROW_ID, BOOK_TITLE, BORROWER_NAME, STUD_ID, BOOK_CATEGORY, R_DATE, B_DATE, RECEIPT_NO FROM BORROWERS ORDER BY BORROW_ID DESC"
         cmd = New OleDbCommand(sql, con)
         Try
             cmd.ExecuteNonQuery()
@@ -34,6 +34,8 @@ Public Class BorrowersForm
             MessageBox.Show(ex.Message.ToString)
         End Try
         Me.BorrowerBookNumberTextBox.Text = cmid + 1
+        Me.BorrowerBookIDTextBox.Text = cmid + 1
+        Me.studcountTextBox.Text = cmid + 1
     End Sub
 
     Private Sub SaveButton_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SaveButton.Click
@@ -83,7 +85,7 @@ Public Class BorrowersForm
 
     
     Private Sub BorrowerSaveButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BorrowerSaveButton.Click
-        sql = "INSERT INTO BORROWERS(BORROW_ID, BOOK_TITLE, BORROWER_NAME, STUD_ID, BOOK_CATEGORY, R_DATE, B_DATE, RECEIPT_NO) VALUES (" & CInt(BorrowerBookNumberTextBox.Text) & ", '" & Me.BorrowerBookTitleTextBox.Text & "', '" & Me.BorrowerNameTextBox.Text & "', '" & Me.BorrowerIDTextBox.Text & "', '" & Me.BorrowCategoryTextBox.Text & "', '" & Me.BorrowerReturnDateTimePicker.Text & "', '" & Me.BorrowerDateTimePicker.Text & "', '" & Me.BorrowerReceiptTextBox.Text & "')"
+        sql = "INSERT INTO BORROWERS(BORROW_ID, BOOK_ID, STUD_COUNT, BOOK_TITLE, BORROWER_NAME, STUD_ID, BOOK_CATEGORY, R_DATE, B_DATE, RECEIPT_NO) VALUES (" & CInt(BorrowerBookNumberTextBox.Text) & ", " & CInt(Me.BorrowerBookIDTextBox.Text) & ", " & CInt(Me.studcountTextBox.Text) & ", '" & Me.BorrowerBookTitleTextBox.Text & "', '" & Me.BorrowerNameTextBox.Text & "', '" & Me.BorrowerIDTextBox.Text & "', '" & Me.BorrowCategoryTextBox.Text & "', '" & Me.BorrowerReturnDateTimePicker.Text & "', '" & Me.BorrowerDateTimePicker.Text & "', '" & Me.BorrowerReceiptTextBox.Text & "')"
         cmd = New OleDbCommand(sql, con)
         Try
             cmd.ExecuteNonQuery()
@@ -96,7 +98,7 @@ Public Class BorrowersForm
 
     
     Private Sub BorrowerUpdateButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BorrowerUpdateButton.Click
-        sql = "UPDATE BORROWERS SET BOOK_TITLE='" & Me.BorrowerBookTitleTextBox.Text & "', BORROWER_NAME='" & Me.BorrowerNameTextBox.Text & "', STUD_ID='" & Me.BorrowerIDTextBox.Text & "', BOOK_CATEGORY='" & Me.BorrowCategoryTextBox.Text & "', R_DATE='" & Me.BorrowerReturnDateTimePicker.Text & "', B_DATE='" & Me.BorrowerDateTimePicker.Text & "', RECEIPT_NO='" & Me.BorrowerReceiptTextBox.Text & "' WHERE BORROW_ID=" & CInt(Me.BorrowerBookNumberTextBox.Text) & ""
+        sql = "UPDATE BORROWERS SET BOOK_ID='" & CInt(Me.BorrowerBookIDTextBox.Text) & "', STUD_COUNT='" & CInt(Me.studcountTextBox.Text) & "', BOOK_TITLE='" & Me.BorrowerBookTitleTextBox.Text & "', BORROWER_NAME='" & Me.BorrowerNameTextBox.Text & "', STUD_ID='" & Me.BorrowerIDTextBox.Text & "', BOOK_CATEGORY='" & Me.BorrowCategoryTextBox.Text & "', R_DATE='" & Me.BorrowerReturnDateTimePicker.Text & "', B_DATE='" & Me.BorrowerDateTimePicker.Text & "', RECEIPT_NO='" & Me.BorrowerReceiptTextBox.Text & "' WHERE BORROW_ID=" & CInt(Me.BorrowerBookNumberTextBox.Text) & ""
         cmd = New OleDbCommand(sql, con)
         Try
             cmd.ExecuteNonQuery()

@@ -56,3 +56,25 @@ C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x
 C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.exe
 C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.xml
 C:\Users\Rian\Desktop\Software Project\Library Final Project Output\QRCODE\obj\x86\Debug\Intellisense Library System.pdb
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\bin\Debug\Intellisense Library System.exe.manifest
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\bin\Debug\Intellisense Library System.application
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\bin\Debug\Intellisense Library System.exe
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\bin\Debug\Intellisense Library System.pdb
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\bin\Debug\Intellisense Library System.xml
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.vbprojResolveAssemblyReference.cache
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.LibraryForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.RegisterBookTransaction.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.BorrowersForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.LoginForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.Resources.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.RegisterStudentsForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.SearchBookForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.SearchBorrowerForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.SplashScreenForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.TransactionForm.resources
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\QRCODE.vbproj.GenerateResource.Cache
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\Intellisense Library System.exe.manifest
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\Intellisense Library System.application
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\Intellisense Library System.exe
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\Intellisense Library System.xml
+C:\Users\Rian\Desktop\Software Project\Intellisense-Institute-of-Technology-Official-Repo\QRCODE\obj\x86\Debug\Intellisense Library System.pdb
